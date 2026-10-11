@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# Java build files
+**/target/
+*.class
+
+# React build files
+**/node_modules/
+**/dist/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
